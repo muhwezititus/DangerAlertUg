@@ -37,7 +37,7 @@
         app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etPassword"
-        app:layout_constraintVertical_bias="0.154"
+        app:layout_constraintVertical_bias="1.0"
         tools:clickable="true" />
 
     <TextView
