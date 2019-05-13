@@ -2,5 +2,8 @@
     <string name="app_name">DangerAlertUg</string>
     <string name="title_activity_home">HomeActivity</string>
     <string name="action_settings">Settings</string>
-    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="nav_home">Home</string>
+    <string name="vav_person">Profile</string>
+    <string name="nav_alert">Post Alert</string>
+    <string name="nav_call">Call</string>
 </resources>

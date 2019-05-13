@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Registration_Form"
+    android:gravity="center_horizontal"
+    android:background="#3F51B5"
+    >
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_profile" />
+
+    <EditText
+        android:id="@+id/f_Name"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#9A9AA0"
+        android:hint="First Name"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#3F51B5"
+        android:background="@drawable/round_corner"
+        />
+    <EditText
+        android:id="@+id/L_Name"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#9A9AA0"
+        android:hint="Last Name"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#3F51B5"
+        android:background="@drawable/round_corner"
+        />
+    <EditText
+        android:id="@+id/full_contact"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#9A9AA0"
+        android:hint="Contact"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#3F51B5"
+        android:background="@drawable/round_corner"
+        />
+
+    <EditText
+        android:id="@+id/first_Password"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColorHint="#9A9AA0"
+        android:textColor="#3F51B5"
+        android:background="@drawable/round_corner"
+        />
+    <EditText
+        android:id="@+id/confirm_Password"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:hint="Confirm-Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColorHint="#9A9AA0"
+        android:textColor="#3F51B5"
+        android:background="@drawable/round_corner"
+        />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Register"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:background="@color/colorPrimaryDark"
+        />
+</LinearLayout>
